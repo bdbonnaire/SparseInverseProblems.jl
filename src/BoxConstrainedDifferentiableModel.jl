@@ -68,7 +68,7 @@ function lmo(model :: BoxConstrainedDifferentiableModel, v :: Vector{Float64})
   return (optx,optf)
 end
 
-immutable SupportUpdateProblem
+struct SupportUpdateProblem
   nPoints :: Int64
   p :: Int64
   s :: BoxConstrainedDifferentiableModel

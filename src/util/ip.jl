@@ -5,7 +5,7 @@ export OptimizationProblem, primalDualSolve
 # min_x f(x)
 #   Cx -h <= 0.0
 
-immutable OptimizationProblem
+struct OptimizationProblem
   d :: Int64
   m :: Int64
   f_g_h :: Function
