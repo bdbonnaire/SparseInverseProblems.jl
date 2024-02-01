@@ -1,0 +1,9 @@
+name = "SparseInverseProblems"
+uuid = "c38c6605-c752-44cc-a56b-e2c1dc097d85"
+authors = ["Basile D. Bonnaire <bdbonnaires@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
